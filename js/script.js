@@ -55,10 +55,86 @@
 //         break;
 // };
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+
+// const hamburger = 5;
+// const fries = null;
+
+// if (hamburger && fries) {
+//     console.log('Ya sit!');
+// };
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 1;
+
+// console.log((hamburger === 3 && cola && fries));
+
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(1 && 'dfklgjmdklfmgklfd');
+
+// if (hamburger === 3 && cola && fries) {
+//     console.log('Vse siti!');
+// } else {
+//     console.log('Mi uhodim!');
+// }
+
+
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+// console.log((hamburger === 3 && cola === 2 || fries === 3 && nuggets));
+
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log('Vse dovolni!');
+// } else {
+//     console.log('Mi uhodim!');
+// };
+
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }
+
+
+
+
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+
+// console.log(johnReport || alexReport || samReport || mariaReport);
+
+
+// let num = 50;
+
+// // while (num <= 55) {
+// //     console.log(num);
+// //     num++;
+// // }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// for (let i = 1; i < 10; i++){
+//     if (i === 6) {
+//         break;
+//     }
+//     console.log(i);
+// }
