@@ -518,19 +518,19 @@
 //     console.log(arr[index]);
 // }
 
-const obj = {
-    name: 'max',
-    surname: 'deviatilov',
-    hui: 'pizda',
-    surnamee: 'deviatilovv',
-};
+// const obj = {
+//     name: 'max',
+//     surname: 'deviatilov',
+//     hui: 'pizda',
+//     surnamee: 'deviatilovv',
+// };
 
-const obj2 = {
-    max: 'name',
-    deviatilov: 'surname',
-    pizda: 'hui',
-    deviatilovv: 'surnamee'
-};
+// const obj2 = {
+//     max: 'name',
+//     deviatilov: 'surname',
+//     pizda: 'hui',
+//     deviatilovv: 'surnamee'
+// };
 
 //написать цикл, в котором итоговым значением каждой итерации будет obj2[value], где value = obj[key]
 
@@ -570,3 +570,114 @@ const obj2 = {
 // console.log(parseInt(test));
 // console.log(parseFloat(test));
 
+// Место для первой задачи
+// function calculateVolumeAndArea(heigh) {
+//     if (heigh !== '' && heigh !== null && Number.isInteger(heigh) && heigh > 0) {
+//         console.log(`Объем куба: ${heigh * heigh * heigh}, площадь всей поверхности: ${(heigh * heigh) * 6}`);
+//     } else {
+//         console.log('При вычислении произошла ошибка');
+//     }
+// }
+// calculateVolumeAndArea(5);
+// calculateVolumeAndArea(15);
+// calculateVolumeAndArea(15.5);
+// calculateVolumeAndArea('15');
+// calculateVolumeAndArea(-15);
+// // Место для второй задачи
+// function getCoupeNumber(mesto) {
+//     if (heigh !== '' && heigh !== null && Number.isInteger(heigh) && heigh > 0) {
+        
+//     } else if (mesto < 0 || mesto >36) {
+//         console.log('Таких мест в вагоне не существует');
+//     } else {
+//         console.log('Ошибка. Проверьте правильность введенного номера места');
+//     }
+// }
+
+
+
+// // Место для первой задачи
+// function getTimeFromMinutes() {
+
+// }
+
+// // Место для второй задачи
+// function findMaxNumber() {
+
+// }
+
+
+// function first() {
+//     // Do something
+//     setTimeout(function(){
+//         console.log(1);
+//     }, 1500);
+// }
+
+// function second() {
+//     console.log(2);
+// }
+
+// first();
+// second();
+
+// function learnJS(lang, callback) {
+//     console.log(`Я учу ${lang}`);
+//     callback();
+// }
+
+// function done() {
+//     console.log(`Я прошел этот урок`);
+// }
+
+// learnJS('JS', done);
+
+
+
+
+// delete options.name;
+
+// console.log(options['colors']['bg']);
+
+// let counter = 0;
+// for (let key in options) {
+//     if (typeof(options[key]) === 'object') {
+//         for (let item in options[key]) {
+//             console.log(`Svoistvo ${item}, imeet znachenie ${options[key][item]}`);
+//             counter++;
+//         }
+//     } else {
+//         console.log(`Svoistvo ${key}, imeet znachenie ${options[key]}`);
+//         counter++;
+//     }
+    
+// }
+
+// console.log(counter);
+
+
+// console.log(Object.keys(options));
+const options = {
+    name: 'test',
+    width: 1024,
+    height: 1024,
+    colors: {
+        border: 'black',
+        bg: 'red',
+        stiker: {
+            bgg: 'blue'
+        }
+    },
+    makeTest: function() {
+        console.log('TEST');
+    } 
+};
+options.makeTest();
+
+const {border, bg} = options.colors;
+const {bgg} = options.colors.stiker;
+console.log(bgg);
+
+// const lengthOptions = Object.keys(options['colors']['stiker']).length;
+
+// console.log(lengthOptions);
